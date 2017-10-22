@@ -1,0 +1,42 @@
+html, body, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lato', sans-serif;
+}
+
+.signature {
+  display: block;
+  margin: auto;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.multi-column {
+  list-style-position: inside;
+}
+
+.grad {
+  background: -webkit-radial-gradient(white, rgb(240, 240, 240));
+  /* Safari 5.1- 6.0 */
+  background: -o-radial-gradient(white, rgb(240, 240, 240));
+  /* Opera 11.6-12.0 */
+  background: -moz-radial-gradient(white, rgb(240, 240, 240));
+  /* Firefox 3.6-15 */
+  background: radial-gradient(white, rgb(240, 240, 240));
+  /* Standard syntax */
+}
+
+.removeUnderline a {
+  text-decoration: none;
+}
+
+.bgwhite {
+  background-color: white;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
