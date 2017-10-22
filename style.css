@@ -1,4 +1,4 @@
-html, body, h1, h2, h3, h4, h5, h6 {
+* {
   font-family: 'Lato', sans-serif;
 }
 
@@ -18,13 +18,24 @@ html, body, h1, h2, h3, h4, h5, h6 {
 }
 
 .grad {
-  background: -webkit-radial-gradient(white, rgb(240, 240, 240));
+  background: -webkit-radial-gradient(white, rgb(235, 235, 235));
   /* Safari 5.1- 6.0 */
-  background: -o-radial-gradient(white, rgb(240, 240, 240));
+  background: -o-radial-gradient(white, rgb(235, 235, 235));
   /* Opera 11.6-12.0 */
-  background: -moz-radial-gradient(white, rgb(240, 240, 240));
+  background: -moz-radial-gradient(white, rgb(235, 235, 235));
   /* Firefox 3.6-15 */
-  background: radial-gradient(white, rgb(240, 240, 240));
+  background: radial-gradient(white, rgb(235, 235, 235));
+  /* Standard syntax */
+}
+
+.gradProjects {
+  background: -webkit-linear-gradient(to right, rgb(220, 220, 220), white, white, white, rgb(220, 220, 220));
+  /* Safari 5.1- 6.0 */
+  background: -o-linear-gradient(to right, rgb(220, 220, 220), white, white, white, rgb(220, 220, 220));
+  /* Opera 11.6-12.0 */
+  background: -moz-linear-gradient(to right, rgb(220, 220, 220), white, white, white, rgb(220, 220, 220));
+  /* Firefox 3.6-15 */
+  background: linear-gradient(to right, rgb(220, 220, 220), white, white, white, rgb(220, 220, 220));
   /* Standard syntax */
 }
 
@@ -39,4 +50,8 @@ html, body, h1, h2, h3, h4, h5, h6 {
 img {
   max-width: 100%;
   height: auto;
+}
+
+.bioFont {
+  font-size: 18px;
 }
